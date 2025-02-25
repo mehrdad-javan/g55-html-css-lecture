@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Examples</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="This is an awesome website about web development."
+    />
+    <meta name="author" content="Mehrdad Javan" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/form-style.css" />
+    <link rel="stylesheet" href="/css/table-style.css" />
+    
+  </head>
+
+  <body>
+    <header>
+      <h1>Introduction to HTML & CSS</h1>
+    </header>
+    <nav class="nav">
+      <a class="nav-links" href="#">Home</a>
+      <a class="nav-links" href="#">Login</a>
+      <a class="nav-links" href="#">Contact Us</a>
+    </nav>
+
+    <main class="container">
+      <form>
+        <h3>Registration Form</h3>
+        <hr />
+        <label>First Name *</label>
+        <input type="text" 
+        placeholder="Enter your First Name" 
+        required />
+        <br />
+
+        <label>Last Name *</label>
+        <input type="text" 
+        placeholder="Enter your Last Name" 
+        required />
+        <br />
+
+        <label>Email *</label>
+        <input type="email" 
+        placeholder="Enter your Email" 
+        required />
+        <br />
+
+        <label>Course</label>
+        <select>
+            <option>Java</option>
+            <option>C#</option>
+            <option>Python</option>
+            <option>JavaScript</option>
+        </select>
+        <br />
+
+        <label>Description</label>
+        <textarea placeholder="Explain...."></textarea>
+        <br />
+
+        <hr/>
+        <button>Submit</button>
+
+      </form>
+
+      <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Mehrdad Javan</td>
+            <td>mehrdad.javan@lexicon.se</td>
+            <td>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Simon Elbrink</td>
+            <td>simon.elbrink@lexicon.se</td>
+            <td>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+      </table>
+
+    </main>
+
+    <footer>&copy; 2025 Lexicon</footer>
+  </body>
+</html>
